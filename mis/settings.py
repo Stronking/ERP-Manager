@@ -24,7 +24,7 @@ SECRET_KEY = '_5%1a5zxdjsb-je@85!l34g--ve7!skhc%^c2n)3vqyhq)yq@c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'mis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '106.12.28.140',
+        'HOST': '',
         'NAME': 'mis',
         'USER': 'root',
-        'PASSWORD': 'yuchengen',
+        'PASSWORD': '',
         'PORT':3306
     }
 }
